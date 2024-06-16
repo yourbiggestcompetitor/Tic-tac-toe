@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTT</title>
+    <link rel="stylesheet" href="ttt.css">
+    <script src="TTT.js"></script>
+
+    
+    
+</head>
+<body>
+    <img class="image" id="o1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa6nD15-rUgS-LfmGq83BvQQ8oLiwjlCBCsw&s" alt="img">
+    <div id="main"> 
+        <h1 style="font-size: 100px;">TIC TAC TOE</h1> 
+        <p id="ins"> 
+            <br><br>First Player starts as 
+            <b>Player X </b>And Second Player as  
+            <b>Player 0</b> 
+        </p> 
+        <br><br> 
+        <div class = "ui"> 
+            <div class="row"> 
+                <input type="text" id= "b1" 
+                       class="cell" onclick="myfunc_3(); myfunc();" 
+                       readonly> 
+                <input type="text" id= "b2" 
+                       class="cell" onclick="myfunc_4(); myfunc();" 
+                       readonly> 
+                <input type="text" id= "b3" class="cell" 
+                       onclick="myfunc_5(); myfunc();" 
+                       readonly> 
+            </div> 
+            <div class="row"> 
+                <input type="text" id= "b4" 
+                       class="cell" onclick="myfunc_6(); myfunc();" 
+                       readonly> 
+                <input type="text" id= "b5" 
+                       class="cell" onclick="myfunc_7(); myfunc();" 
+                       readonly> 
+                <input type="text" id= "b6" 
+                       class="cell" onclick="myfunc_8(); myfunc();" 
+                       readonly> 
+            </div> 
+            <div class="row"> 
+                <input type="text" id= "b7" 
+                       class="cell" onclick="myfunc_9(); myfunc();" 
+                       readonly> 
+                <input type="text" id= "b8" 
+                       class="cell" onclick="myfunc_10();myfunc();" 
+                       readonly> 
+                <input type="text" id= "b9" 
+                       class="cell" onclick="myfunc_11();myfunc();" 
+                       readonly> 
+            </div> 
+        </div> 
+        <br><br><br> 
+
+        
+        
+        <button id="but" onclick="myfunc_2()" > 
+            RESET 
+        </button> 
+        <br><br> 
+        <p id="print"></p> 
+    </div> 
+
+    <div id="indicator" class="turn"></div>
+
+    <div class="leaderboard">
+        <h1>Leaderboard</h1>
+        <div class="player" id="player1">
+            <h2>Player 1</h2>
+            <p id="score1">0</p>
+        </div>
+
+        <div class="player" id="player2">
+            <h2>Player 2</h2>
+            <p id="score2">0</p>           
+        </div>
+    <br></br>
+        <button id="resetScores">Reset Scores</button>
+    </div>
+
+    <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head> -->
+
+    <!-- <div class="game-container">
+        <h1>Tic Tac Toe</h1>
+        <div id="turnIndicator">Player 1's Turn (X)</div>
+        <div class="board">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+        <div id="resultMessage"></div>
+        <div class="leaderboard">
+            <h2>Leaderboard</h2>
+            <p id="player1Score" class="leaderboard-score">Player 1: 0</p>
+            <p id="player2Score" class="leaderboard-score">Player 2: 0</p>
+            <button id="resetScores">Reset Scores</button>
+        </div>
+    </div>
+
+   
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <p>The current game will reset. Do you want to continue?</p>
+            <button id="confirmReset">Reset</button>
+            <button id="cancelReset">Cancel</button>
+        </div>
+    </div> 
+    
+    <script src="scripts.js"></script>-->
+</body>
+
+    
+        
+</body> 
+  
+</html>
